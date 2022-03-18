@@ -1,0 +1,62 @@
+{
+	"id": "adfc66f8-c134-41ff-9866-7ea87dec8a77",
+	"name": "Disney API",
+	"timestamp": "2022-03-18T23:05:18.030Z",
+	"collection_id": "6212269-80c23664-f239-4fcb-888c-8b97493a8b7f",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "1dd35163-9d92-41ab-9002-32e95f096f7d",
+			"name": "obtém todos os personagens da disney",
+			"url": "https://api.disneyapi.dev/characters",
+			"time": 914,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				914
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "9ee4bacb-3503-46a9-80b7-2315a804be98",
+			"name": "obtém informações do personagem do id informado",
+			"url": "https://api.disneyapi.dev/characters/17",
+			"time": 215,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				215
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1129,
+	"collection": {
+		"requests": [
+			{
+				"id": "1dd35163-9d92-41ab-9002-32e95f096f7d",
+				"method": "GET"
+			},
+			{
+				"id": "9ee4bacb-3503-46a9-80b7-2315a804be98",
+				"method": "GET"
+			}
+		]
+	}
+}

@@ -1,0 +1,106 @@
+{
+	"id": "b7998132-5f9d-422d-998f-c53b3ca22264",
+	"name": "Github API",
+	"timestamp": "2022-03-18T23:05:41.606Z",
+	"collection_id": "6212269-a6fe90d5-edd3-4ff7-a2c5-2fc5552ba0cc",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "249b4ac5-a54b-4da3-be96-bf8c795a02d5",
+			"name": "request inicial da api do github",
+			"url": "https://api.github.com/zen",
+			"time": 288,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				288
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "8635a44a-1768-4e0d-b6af-7d226582694f",
+			"name": "obtém informações do usuário",
+			"url": "https://api.github.com/users/natang19",
+			"time": 284,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				284
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "64182973-7da2-4c2a-b528-c39863e20757",
+			"name": "obtém informações do repositorio do usuário informado",
+			"url": "https://api.github.com/repos/natang19/signalr-realpromo-app",
+			"time": 210,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				210
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "66b90bee-86fa-49b5-84d7-6ec66601a29a",
+			"name": "obtém todos os repositorios do usuário informado",
+			"url": "https://api.github.com/users/natang19/repos",
+			"time": 388,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				388
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1170,
+	"collection": {
+		"requests": [
+			{
+				"id": "249b4ac5-a54b-4da3-be96-bf8c795a02d5",
+				"method": "GET"
+			},
+			{
+				"id": "8635a44a-1768-4e0d-b6af-7d226582694f",
+				"method": "GET"
+			},
+			{
+				"id": "64182973-7da2-4c2a-b528-c39863e20757",
+				"method": "GET"
+			},
+			{
+				"id": "66b90bee-86fa-49b5-84d7-6ec66601a29a",
+				"method": "GET"
+			}
+		]
+	}
+}

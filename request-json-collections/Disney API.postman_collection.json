@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "80c23664-f239-4fcb-888c-8b97493a8b7f",
+		"name": "Disney API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "obtém todos os personagens da disney",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.disneyapi.dev/characters",
+					"protocol": "https",
+					"host": [
+						"api",
+						"disneyapi",
+						"dev"
+					],
+					"path": [
+						"characters"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "obtém informações do personagem do id informado",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.disneyapi.dev/characters/17",
+					"protocol": "https",
+					"host": [
+						"api",
+						"disneyapi",
+						"dev"
+					],
+					"path": [
+						"characters",
+						"17"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

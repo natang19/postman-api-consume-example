@@ -1,0 +1,94 @@
+{
+	"info": {
+		"_postman_id": "a6fe90d5-edd3-4ff7-a2c5-2fc5552ba0cc",
+		"name": "Github API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "request inicial da api do github",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.github.com/zen",
+					"protocol": "https",
+					"host": [
+						"api",
+						"github",
+						"com"
+					],
+					"path": [
+						"zen"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "obtém informações do usuário",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.github.com/users/natang19",
+					"protocol": "https",
+					"host": [
+						"api",
+						"github",
+						"com"
+					],
+					"path": [
+						"users",
+						"natang19"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "obtém informações do repositorio do usuário informado",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.github.com/repos/natang19/signalr-realpromo-app",
+					"protocol": "https",
+					"host": [
+						"api",
+						"github",
+						"com"
+					],
+					"path": [
+						"repos",
+						"natang19",
+						"signalr-realpromo-app"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "obtém todos os repositorios do usuário informado",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.github.com/users/natang19/repos",
+					"protocol": "https",
+					"host": [
+						"api",
+						"github",
+						"com"
+					],
+					"path": [
+						"users",
+						"natang19",
+						"repos"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

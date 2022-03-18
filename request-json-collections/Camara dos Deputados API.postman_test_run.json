@@ -1,0 +1,106 @@
+{
+	"id": "4320c2ce-0612-412e-83e2-ddf5a9d8be5b",
+	"name": "Camara dos Deputados API",
+	"timestamp": "2022-03-18T23:04:41.858Z",
+	"collection_id": "6212269-b0fdf327-7f3b-4ecb-95c3-facbd2c73ef0",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "0d32058d-de8f-4355-86bd-3f332d8a343c",
+			"name": "obtém todos os deputados federais",
+			"url": "https://dadosabertos.camara.leg.br/api/v2/deputados",
+			"time": 377,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				377
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e180f181-dfe3-4165-a434-07e07a63c38a",
+			"name": "obtém as despesas do deputado do id",
+			"url": "https://dadosabertos.camara.leg.br/api/v2/deputados/204554/despesas",
+			"time": 68,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				68
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "462d171d-fbd9-40fd-9b7b-e31575cd3666",
+			"name": "lista todos os blocos partidarios da camera federal",
+			"url": "https://dadosabertos.camara.leg.br/api/v2/blocos",
+			"time": 147,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				147
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "033690c5-17dc-4485-9940-277c6b8c0d00",
+			"name": "lista todos os eventos da camara",
+			"url": "https://dadosabertos.camara.leg.br/api/v2/eventos",
+			"time": 215,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				215
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 807,
+	"collection": {
+		"requests": [
+			{
+				"id": "0d32058d-de8f-4355-86bd-3f332d8a343c",
+				"method": "GET"
+			},
+			{
+				"id": "e180f181-dfe3-4165-a434-07e07a63c38a",
+				"method": "GET"
+			},
+			{
+				"id": "462d171d-fbd9-40fd-9b7b-e31575cd3666",
+				"method": "GET"
+			},
+			{
+				"id": "033690c5-17dc-4485-9940-277c6b8c0d00",
+				"method": "GET"
+			}
+		]
+	}
+}

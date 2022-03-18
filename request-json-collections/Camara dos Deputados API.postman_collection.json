@@ -1,0 +1,103 @@
+{
+	"info": {
+		"_postman_id": "b0fdf327-7f3b-4ecb-95c3-facbd2c73ef0",
+		"name": "Camara dos Deputados API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "obtém todos os deputados federais",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dadosabertos.camara.leg.br/api/v2/deputados",
+					"protocol": "https",
+					"host": [
+						"dadosabertos",
+						"camara",
+						"leg",
+						"br"
+					],
+					"path": [
+						"api",
+						"v2",
+						"deputados"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "obtém as despesas do deputado do id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dadosabertos.camara.leg.br/api/v2/deputados/204554/despesas",
+					"protocol": "https",
+					"host": [
+						"dadosabertos",
+						"camara",
+						"leg",
+						"br"
+					],
+					"path": [
+						"api",
+						"v2",
+						"deputados",
+						"204554",
+						"despesas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lista todos os blocos partidarios da camera federal",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dadosabertos.camara.leg.br/api/v2/blocos",
+					"protocol": "https",
+					"host": [
+						"dadosabertos",
+						"camara",
+						"leg",
+						"br"
+					],
+					"path": [
+						"api",
+						"v2",
+						"blocos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lista todos os eventos da camara",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dadosabertos.camara.leg.br/api/v2/eventos",
+					"protocol": "https",
+					"host": [
+						"dadosabertos",
+						"camara",
+						"leg",
+						"br"
+					],
+					"path": [
+						"api",
+						"v2",
+						"eventos"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
